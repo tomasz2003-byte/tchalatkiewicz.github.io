@@ -78,3 +78,18 @@ footer {
     color: #fff;
     font-size: 0.9rem;
 }
+@media (max-width: 400px) {
+    .carousel {
+      padding: 0 0.5rem;
+    }
+  
+    .carousel img {
+      max-width: 100%;
+      height: auto;
+    }
+  
+    .prev, .next {
+      font-size: 1.2rem;
+      padding: 0.2rem;
+    }
+  }
